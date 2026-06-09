@@ -1,0 +1,22 @@
+[
+  {
+    "ParameterKey": "KeyName",
+    "ParameterValue": "ec2_key_pair"
+  },
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t2.micro"
+  },
+  {
+    "ParameterKey": "SSHLocation",
+    "ParameterValue": "0.0.0.0/0"
+  },
+  {
+    "ParameterKey": "LatestAmiId",
+    "ParameterValue": "/aws/service/ami-amazon-linux-latest/amzn2-ami-hvm-x86_64-gp2"
+  },
+  {
+    "ParameterKey": "Subnets",
+    "ParameterValue": "subnet-09112f6a3a9f6b31f"
+  }
+]
