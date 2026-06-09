@@ -1,7 +1,7 @@
 template-file-path: cf-ec2.yaml
 parameters: 
     KeyName: ec2_key_pair
-    InstanceType: t2.micro
+    InstanceType: t2.nano
     SSHLocation: "0.0.0.0/0"
     Subnets: "subnet-09112f6a3a9f6b31f"    
 tags:
