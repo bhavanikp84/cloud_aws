@@ -1,0 +1,6 @@
+template-file-path: cloud_aws/cf-ec2.yaml
+parameters:
+  KeyName: ec2_key_pair
+  SSHLocation: 0.0.0.0/0
+  Subnets: subnet-09112f6a3a9f6b31f
+tags: {}
